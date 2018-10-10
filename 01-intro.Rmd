@@ -1,0 +1,68 @@
+# DESCRIPCIÓN DE LAS OBRAS \label{des}
+
+## Formato
+hay una web que indica muy bien como usar el YAML <https://bookdown.org/yihui/bookdown/publishers.html>
+
+## tipo de letra
+Puedes elegir las letras que existan en la versionde latex local, en principio valen todas las listadas en :
+ 
+  -<http://www.tug.dk/FontCatalogue/>
+
+Pero muchas de ellas no estarán en el fichero sty necesario.
+Por ejemplo :
+
+ - Chivo Light 
+ - Bookman
+ - Garamond
+ - Latin Modern Roman
+
+
+## Proyecto de arte dramático 
+El proyecto consiste básicamente, en las siguientes actuaciones:
+
+ 1. Toma en el embalse del Talave
+ 2. Túnel
+ 3. Obra de salida a la rambla del Algarrobo que desemboca en la cola del embalse del Cenajo.
+
+
+### Túnel
+
+El proyecto original consistía en la construcción de un túnel de 4,5 m de diámetro y una longitud total de 7,5 km. Se diseñó una conducción **a presión** en túnel capaz de desaguar 60 $m^3/s$ desde el embalse del Talave al embalse del Cenajo.
+
+
+```{r echo=FALSE,eval=TRUE,out.width="30%"}
+    # Pintamos todas las imagenes de la salida
+    library(knitr)
+    myimages<-list.files("imag/toma/", pattern = ".jpg", full.names = TRUE)
+    include_graphics(myimages)
+```
+
+### Plazo de ejecución del PM1
+
+Para saber cómo meter fórmulas mat en los documentos se puede consultar la web:
+<https://en.wikibooks.org/wiki/LaTeX/Mathematics>
+
+formulas matemáticas son faciles de introducir con codigo $LaTeX$:
+$$\frac{x*x^2}{P_1 + \pi}$$
+
+nada de esto es cierto
+
+
+## graficas
+
+```{r}
+head(cars)
+
+with(cars, plot(speed, dist, main="grafico"))
+     
+
+```
+
+
+Esto es todo amigos
+
+```{block2, type='flushright', html.tag='p'}
+Vilber 
+Murcia, España
+```
+

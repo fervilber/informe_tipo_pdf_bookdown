@@ -1,0 +1,21 @@
+# DOCUMENTOS  \label{doc}
+
+Se aportan lo principales documentos del proyecto, ordenados según su cronología.
+
+
+## Escritos por fecha
+
+este es el ouou.yml anterior:
+
+```{r eval=FALSE}
+bookdown::pdf_book:
+  includes:
+    template: latex/default.tex
+  keep_tex: no
+  toc_depth: 2
+  toc_unnumbered: no
+  toc_appendix: yes
+quote_footer: ["\\VA{", "}{}"]
+```
+
+###2001

@@ -1,0 +1,8 @@
+bookdown::pdf_book:
+  citation_package: natbib
+  keep_tex: no
+  toc_depth: 3
+  toc_unnumbered: no
+  toc_appendix: yes
+  highlight_bw: yes
+  quote_footer: ["\\VA{", "}{}"]
